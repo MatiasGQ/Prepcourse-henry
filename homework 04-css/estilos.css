@@ -1,0 +1,61 @@
+body{background-color: rgba(188, 188, 142, 0.817);}
+
+.title{font-size: 1em;
+color: rgb(81, 48, 48);
+}
+
+#principal{
+    font-size: 3em;
+}
+
+.encabezado{
+    border: 2px solid rgba(188, 188,142,0.817);
+    width: fit-content;
+    padding: 0px 1em 1px 1em;
+    border-radius: 10%;
+    transition: 1s;
+    background-color: rgba(196, 202, 116, 0.814);
+    margin-top: auto;
+    margin: auto;
+}
+
+.uva{width: 150px;
+     height: 270px;
+}
+
+#titulos{
+    border: 2px solid black;
+    width: 60vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    border: 2px solid rgb(219, 219, 177);
+    width: fit-content;
+    padding: 1px 1em 24px 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color: rgb(187, 187, 149);
+}
+
+#cards-container{
+    background-color: beige;
+    width: 85vw;
+    margin: auto;
+    margin-top: auto;
+    border: 2px solid rgb(187, 187, 149);
+    padding: 2em; 
+    display: flex;
+    flex-direction: row;
+    justify-content: spa;
+}
